@@ -1,5 +1,5 @@
 function sayHello(name, surname) {
-    // some comment
+    // some comment change
     console.log(`Hello ${name} ${surname}`);
 }
 //end function
