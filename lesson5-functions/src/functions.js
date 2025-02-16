@@ -12,7 +12,7 @@ function sumArrayElements(array) {
             sum += element;
         } else {
             console.log(`Skipped non-numeric value: ${element}`);
-        }
+        }  // ✅ Correctly closing the block
     });
 
     return sum;
@@ -27,4 +27,3 @@ console.log("Total Page Load Time (seconds):", totalPageLoadTime);
 const pageNames = ["Home", "About", "Contact", "Login"];
 const totalStringLength = sumArrayElements(pageNames);
 console.log("Total Length of Page Names:", totalStringLength);
-
