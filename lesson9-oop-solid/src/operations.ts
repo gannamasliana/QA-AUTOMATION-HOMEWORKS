@@ -1,6 +1,6 @@
-import { IEquipment } from "./interfaces";
+import { Equipment } from './equipment';
 
-// Function to run any equipment that implements IEquipment.
-export async function runEquipment(equipment: IEquipment): Promise<void> {
-  await equipment.operate(); // Await the asynchronous "operate" method.
+// Function that operates any type of manufacturing equipment.
+export async function runEquipment(equipment: Equipment): Promise<void> {
+    await equipment.operate(); // Calls the implemented "operate()" method.
 }
