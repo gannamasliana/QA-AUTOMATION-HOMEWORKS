@@ -27,13 +27,17 @@
     "eslint": "^9.19.0",
     "eslint-plugin-prettier": "^5.2.3",
     "esrun": "^3.2.26",
-    "globals": "^15.15.0",
+    "globals": "github:types/mocha",
     "mocha": "^11.1.0",
     "prettier": "3.4.2",
-    "ts-mocha": "^11.0.0",
+    "ts-mocha": "^11.1.0",
     "ts-node": "^10.9.2",
     "tsx": "^4.19.3",
     "typescript": "^5.7.3",
     "typescript-eslint": "^8.21.0"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "keywords": []
 }
